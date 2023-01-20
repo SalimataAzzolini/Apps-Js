@@ -1,0 +1,54 @@
+.header {
+  color: white;
+  font-size: 1.5em;
+  background-color: rgb(15, 29, 158);
+  padding: 20px 0px 20px 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+form {
+  background-color: rgb(243, 239, 239);
+  margin-top: -25px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+form .button {
+  border: 2.5px solid rgb(146, 134, 204);
+  border-radius: 2px;
+  background-color: rgb(146, 134, 204);
+  width: 100px;
+}
+
+.firstName,
+.lastName,
+.email,
+.tel {
+  border: 1.5px solid black;
+  width: 300px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+/* .contactClient 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin-top: 50px;
+}
+
+.divContactPro h2
+{
+    margin-left: -40px;
+}
+
+.divContactPerso h2
+{
+    margin-left: -40px;
+} */

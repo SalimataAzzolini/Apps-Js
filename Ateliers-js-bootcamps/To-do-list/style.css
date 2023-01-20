@@ -1,0 +1,66 @@
+header
+{
+    background-color: rgb(228, 49, 49);
+    border: solid 4px rgb(228, 49, 49);
+    padding-bottom: 15px;
+}
+.header
+{
+    text-align: center;
+}
+.header h1
+{
+   color: white;
+}
+
+.mon-input
+{
+    width: 600px;
+    height: 30px;
+}
+
+.button
+{
+    color: rgb(228, 49, 49);
+    background-color: white;
+    padding: 7px; 
+    font-weight: bold;
+    border: 1px white solid;
+}
+
+#bloc-list 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+}
+
+
+#bloc-list h2
+{
+    font-size: 30px;
+    margin-left: -50px;
+    border: 2px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#bloc-list li 
+{
+    cursor: pointer;
+    font-size: 18px;
+    padding-bottom: 10px;
+    
+}
+
+li:hover
+{
+    font-weight: bold;
+}
+
+.eleve
+{
+    color: brown;
+
+}

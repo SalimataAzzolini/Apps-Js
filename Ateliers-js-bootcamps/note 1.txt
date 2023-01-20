@@ -1,0 +1,18 @@
+FONCTION beauTemps (temperature,meteo) {
+    
+
+    SI (1 = soleil && 2 > 18) {
+        RETOURNER "Il fait soleil et plus de 18 degrés"
+    } SINON {
+
+        RETOURNER "Autre résultat"
+}
+
+
+
+}
+
+AFFICHER beauTemps(14,pluie)
+
+
+AFFICHER beauTemps(22,soleil)
